@@ -32,7 +32,7 @@ This web application allows users to **add, edit, delete, search, and manage stu
 
 Shows the main page displaying saved students.
 
-![Main Page](database1.png)
+![Main Page](images/database1.png)
 
 ---
 
@@ -40,7 +40,7 @@ Shows the main page displaying saved students.
 
 Form used to add a student's **Name, Email, Course, and Age**.
 
-![Add Student](database2.png)
+![Add Student](images/database2.png)
 
 ---
 
@@ -48,7 +48,7 @@ Form used to add a student's **Name, Email, Course, and Age**.
 
 Students can be removed from the database.
 
-![Delete Student](database3.png)
+![Delete Student](images/database3.png)
 
 ---
 
@@ -56,7 +56,7 @@ Students can be removed from the database.
 
 Users can search for students by typing their name.
 
-![Search Student](database4.png)
+![Search Student](images/database4.png)
 
 ---
 
