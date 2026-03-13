@@ -1,0 +1,19 @@
+.# Build folders
+bin/
+obj/
+
+# Visual Studio / VS Code files
+.vs/
+*.user
+*.suo
+*.vscode/
+
+# Logs
+*.log
+
+# Database files (for local dev)
+*.db
+appsettings.Development.json
+
+# Publish output
+*.Publish.xml

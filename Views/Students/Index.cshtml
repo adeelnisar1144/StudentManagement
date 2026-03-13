@@ -1,0 +1,42 @@
+@model List<StudentManagment.Models.Student>
+
+<h2>Students</h2>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Add Student</a>
+</p>
+
+<form method="get">
+    <div class="form-group">
+        <label>Search by Name</label>
+        <input type="text" name="search" value="@ViewData["CurrentFilter"]" class="form-control" />
+        <button type="submit" class="btn btn-secondary">Search</button>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Name</td>
+                <td>@student.Email</td>
+                <td>@student.Course</td>
+                <td>@student.Age</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = student.Id })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Delete", new { id = student.Id })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
