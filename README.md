@@ -32,7 +32,7 @@ This web application allows users to **add, edit, delete, search, and manage stu
 
 Shows the main page displaying saved students.
 
-![Main Page](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database1.png)
+![Main Page](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/blob/main/images/database1.png)
 
 ---
 
@@ -40,7 +40,7 @@ Shows the main page displaying saved students.
 
 Form used to add a student's **Name, Email, Course, and Age**.
 
-![Add Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database2.png)
+![Add Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/blob/main/images/database2.png)
 
 ---
 
