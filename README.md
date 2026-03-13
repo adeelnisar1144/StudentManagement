@@ -32,7 +32,7 @@ This web application allows users to **add, edit, delete, search, and manage stu
 
 Shows the main page displaying saved students.
 
-![Main Page](images/database1.png)
+![Main Page](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database1.png)
 
 ---
 
@@ -40,7 +40,7 @@ Shows the main page displaying saved students.
 
 Form used to add a student's **Name, Email, Course, and Age**.
 
-![Add Student](images/database2.png)
+![Add Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database2.png)
 
 ---
 
@@ -48,7 +48,7 @@ Form used to add a student's **Name, Email, Course, and Age**.
 
 Students can be removed from the database.
 
-![Delete Student](images/database3.png)
+![Delete Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database3.png)
 
 ---
 
@@ -56,35 +56,40 @@ Students can be removed from the database.
 
 Users can search for students by typing their name.
 
-![Search Student](images/database4.png)
+![Search Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database4.png)
 
 ---
 
 ## How to Run the Project
 
-### 1 Clone the repository\
+**1. Clone the repository**
+```bash
+git clone https://github.com/adeelnisar1144/StudentManagement.git
+```
 
-### git clone https://github.com/adeelnisar1144/StudentManagement.git
+**2. Navigate to the project folder**
+```bash
+cd StudentManagement
+```
 
-### 2 Navigate to the project folder
+**3. Restore dependencies**
+```bash
+dotnet restore
+```
 
-### cd StudentManagement
+**4. Apply database migrations**
+```bash
+dotnet ef database update
+```
 
-### 3 Restore dependencies
+**5. Run the application**
+```bash
+dotnet run
+```
 
-### dotnet restore
+**6. Open in browser**
 
-### 4 Apply database migrations
-
-### dotnet ef database update
-
-### 5 Run the application
-
-### dotnet run
-
-### 6 Open in browser
-
-### in your terminal it will privide you with a url paste it in your browser
+Your terminal will provide a URL — paste it into your browser.
 
 ---
 
@@ -96,5 +101,4 @@ Users can search for students by typing their name.
 
 ## Project Description
 
-### This project demonstrates **CRUD operations (Create, Read, Update, Delete)** using **ASP.NET Core MVC with Entity Framework Core and SQL Server**.  
-### It allows users to manage student data efficiently through a web interface.
+This project demonstrates **CRUD operations (Create, Read, Update, Delete)** using **ASP.NET Core MVC with Entity Framework Core and SQL Server**. It allows users to manage student data efficiently through a web interface.
