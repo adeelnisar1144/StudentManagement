@@ -32,7 +32,7 @@ This web application allows users to **add, edit, delete, search, and manage stu
 
 Shows the main page displaying saved students.
 
-![Main Page](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/blob/main/images/database1.png)
+![Main Page](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database1.PNG)
 
 ---
 
@@ -40,7 +40,7 @@ Shows the main page displaying saved students.
 
 Form used to add a student's **Name, Email, Course, and Age**.
 
-![Add Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/blob/main/images/database2.png)
+![Add Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database2.PNG)
 
 ---
 
@@ -48,7 +48,7 @@ Form used to add a student's **Name, Email, Course, and Age**.
 
 Students can be removed from the database.
 
-![Delete Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database3.png)
+![Delete Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database3.PNG)
 
 ---
 
@@ -56,7 +56,7 @@ Students can be removed from the database.
 
 Users can search for students by typing their name.
 
-![Search Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database4.png)
+![Search Student](https://raw.githubusercontent.com/adeelnisar1144/StudentManagement/main/images/database4.PNG)
 
 ---
 
